@@ -1,11 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio - Hisyam Khaeru Umam</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+    <nav class="navbar">
+        <div class="nav-brand">My Portofolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#riwayat">Riwayat</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portofolio">Proyek</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-left">
+            <h1>Hi, I'm</h1>
+            <h1><span class="highlight">Hisyam Khaeru Umam</span></h1>
+            <h2 class="typing">Informatic engineering student</h2>
+            <p class="subtitle">
+                Mahasiswa D3 Teknik Informatika yang memiliki minat dalam bidang pengembangan diri,
+                berkolaborasi, dan pemograman. Aktif mengembangkan keterampilan melalui
+                pengalaman, kontribusi dan kolaborasi.
+            </p>
+            <div class="cta">
+                <a href="#portofolio" class="btn">Lihat Portofolio</a>
+                <a href="#kontak" class="btn-outline">Kontak Saya</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="assets/img/profil.png" alt="Foto Profil" class="profile-pic" />
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah mahasiswa D3 Teknik Komputer di Politeknik Negeri Bandung yang aktif 
+            dan komunikatif, dengan pengalaman organisasi yang melatih kerja sama tim serta 
+            tanggung jawab. Saya memiliki semangat belajar tinggi, terbuka terhadap tantangan baru, 
+            dan terus berusaha mengembangkan diri agar dapat memberikan kontribusi yang positif.
+        </p>
+        
+        <div class="video-wrapper">
+            <video controls>
+                <source src="assets/video/profile-video.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="riwayat" class="section riwayat">
+        <h2>Riwayat</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Pendidikan</h3>
+                <ul>
+                    <li>Politeknik Negeri Bandung - D3 Teknik Informatika (2024 - Sekarang)</li>
+                    <li>SMA Plus Al-Aqsha (2021 - 2024)</li>
+                    <li>SMP Plus AL-Aqsha (2018 - 2021)</li>
+                    <li>SDN Galihparwati (2012 - 2018)</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Pengalaman</h3>
+                <ul>
+                    <li>Ketua Pelaksana Gathering Forum Sosial 2025</li>
+                    <li>Staf Muda BEM KEMA POLBAN Kemenkoan Sosial Masyarakat</li>
+                    <li>Staf Muda Himakom Departemen Luar Himpunan</li>
+                    <li>Kepala bagian Admin & Finance komunitas Explore Nature</li>
+                    <li>Bendahara Pusat OPPMA (Organisasi Pelajar Pondok Modern Al-Aqsha)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <h2>Keterampilan</h2>
+        <div class="skills-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>C</span>
+            <span>Git</span>
+            <span>Python</span>
+            <span>Java</span>
+        </div>
+    </section>
+
+    <section id="portofolio" class="section portofolio">
+        <h2>Proyek</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="assets/img/projek1.png" alt="CiteTrack" class="project-img">
+                <h3>CiteTrack</h3>
+                <p>CiteTrack adalah sistem yang menampilkan daftar paper populer berdasarkan jumlah sitasi, dengan fitur filter seperti nama penulis dan tahun publikasi untuk memudahkan pencarian referensi yang relevan.</p>
+            </div>
+            <div class="card">
+                <img src="assets/img/projek2.png" alt="Game 2D (Jump & Survive)" class="project-img">
+                <h3>Game 2D Platformer (Jump & Survive)</h3>
+                <p>Proyek kelompok membuat game mirip Level Devil menggunakan bahasa C, dengan level menantang, jebakan tak terduga, kontrol responsif, serta sistem nyawa dan checkpoint untuk meningkatkan replayability.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeri" class="section galeri">
+        <h2>Galeri Kegiatan</h2>
+            <div class="galeri-grid">
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan1.jpg" alt="Kegiatan 1">
+                    <p>Kegiatan Gathering forum sosial bersama seluruh anggota KEMA POLBAN departemen sosial.</p>
+                </div>
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan3.png" alt="Kegiatan 2">
+                    <p>Pemaparan tentang forum sosial kepada seluruh peserta Foral 2025.</p>
+                </div>
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan2.jpg" alt="Kegiatan 3">
+                    <p>Pembacaan dan pengesahan SOP Foral 2025 bersama seluruh pihak ormawa.</p>
+                </div>
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan6.jpg" alt="Kegiatan 3">
+                    <p>Ekspedisi Monitoring untuk persiapan rancangan KKN Tematik Sasagara 2025.</p>
+                </div>
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan4.jpg" alt="Kegiatan 3">
+                    <p>Rapat besar pertama sekaligus penanda tanganan SOP dan kontrak kerja seluruh member Explore Nature</p>
+                </div>
+                <div class="galeri-card">
+                    <img src="assets/img/kegiatan5.jpg" alt="Kegiatan 3">
+                    <p>Kegiatan Poljar (Polban Mengajar) pertama di SDN Kanaan Indragiri</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="kontak" class="section kontak">
+        <h2>Kontak</h2>
+        <p>Mari terhubung melalui media berikut:</p>
+        <div class="socials">
+            <a href="mailto:hisyamk.u5062@gmail.com" target="_blank">
+                <img src="assets/icons/email.png" alt="Email">
+            </a>
+            <a href="https://wa.me/6289515670620" target="_blank">
+                <img src="assets/icons/whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://github.com/Umeem26" target="_blank">
+                <img src="assets/icons/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/hisyam-khaeru-umam-890a40350/" target="_blank">
+                <img src="assets/icons/linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="https://instagram.com/hisyamkh.u" target="_blank">
+                <img src="assets/icons/instagram.png" alt="Instagram">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Hisyam Khaeru Umam. Terima kasih sudah berkunjung ke portofolio saya. Mari terhubung!
+    </footer>
+
+    <script>
+        // Smooth scroll untuk navigasi
+        document.querySelectorAll('.nav-links a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href'))
+                    .scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
 </body>
 </html>
