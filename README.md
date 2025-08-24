@@ -23,3 +23,4 @@ Proyek ini merupakan tugas individu awal pada mata kuliah Proyek 3 berupa **webs
 
 ## Deploy
 Website ini berhasil dideploy dan dapat diakses melalui link berikut:  
+https://umeem26.github.io/Web-Portofolio/
